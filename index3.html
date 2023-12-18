@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me - Kamrul Islam</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Additional styles for contact form and download CV section */
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 30px;
+        }
+
+        p a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Contact Me</h1>
+</div>
+
+<div class="content">
+    <h2>Contact Information</h2>
+    <p>If you'd like to get in touch with me, you can reach out through the following methods:</p>
+    
+    <ul>
+        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li>Phone: +4407796401566</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/kamrul-islam-98676323b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/"> LinkedIn Profile</a></li>
+        <li>Facebook: <a href="https://www.facebook.com/kamrulislam.tufayel/"> Facebook Profile</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/kamrultufayel?utm_source=qr/"> Instagram Profile</a></li>
+        <li>Snapchat: Kamrul islam</li>
+        <!-- Add any other contact methods you prefer -->
+    </ul>
+    
+    <h2>Contact Form</h2>
+    <p>You can also use the contact form below to send me a message:</p>
+    
+    <form action="submit_contact_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <input type="submit" value="Send">
+    </form>
+
+    <h3>Download CV</h3>
+    <p>If you'd like to download my CV, you can do so by clicking the link below:</p>
+    <p><a href="K CV.pdf" download="Kamrul_Islam_CV.pdf">Download CV</a></p>
+</div>
+
+</body>
+</html>
